@@ -1,0 +1,128 @@
+.position-relative{
+    position: relative !important;
+}
+.position-absolute{
+    position: absolute !important;
+}
+.position-fixed{
+    position: fixed !important;
+}
+.position-static{
+    position: static !important;
+}
+.position-sticky{
+    position: sticky !important;
+}
+.position-inherit{
+    position: inherit !important;
+}
+.position-initial{
+    position: initial !important;
+}
+.position-unset{
+    position: unset !important;
+}
+@include media-breakpoint-up(sm){
+    .position-sm-relative{
+        position: relative !important;
+    }
+    .position-sm-absolute{
+        position: absolute !important;
+    }
+    .position-sm-fixed{
+        position: fixed !important;
+    }
+    .position-sm-static{
+        position: static !important;
+    }
+    .position-sm-sticky{
+        position: sticky !important;
+    }
+    .position-sm-inherit{
+        position: inherit !important;
+    }
+    .position-sm-initial{
+        position: initial !important;
+    }
+    .position-sm-unset{
+        position: unset !important;
+    }
+}
+@include media-breakpoint-up(md){
+    .position-md-relative{
+        position: relative !important;
+    }
+    .position-md-absolute{
+        position: absolute !important;
+    }
+    .position-md-fixed{
+        position: fixed !important;
+    }
+    .position-md-static{
+        position: static !important;
+    }
+    .position-md-sticky{
+        position: sticky !important;
+    }
+    .position-md-inherit{
+        position: inherit !important;
+    }
+    .position-md-initial{
+        position: initial !important;
+    }
+    .position-md-unset{
+        position: unset !important;
+    }
+}
+@include media-breakpoint-up(lg){
+    .position-lg-relative{
+        position: relative !important;
+    }
+    .position-lg-absolute{
+        position: absolute !important;
+    }
+    .position-lg-fixed{
+        position: fixed !important;
+    }
+    .position-lg-static{
+        position: static !important;
+    }
+    .position-lg-sticky{
+        position: sticky !important;
+    }
+    .position-lg-inherit{
+        position: inherit !important;
+    }
+    .position-lg-initial{
+        position: initial !important;
+    }
+    .position-lg-unset{
+        position: unset !important;
+    }
+}
+@include media-breakpoint-up(xl){
+    .position-xl-relative{
+        position: relative !important;
+    }
+    .position-xl-absolute{
+        position: absolute !important;
+    }
+    .position-xl-fixed{
+        position: fixed !important;
+    }
+    .position-xl-static{
+        position: static !important;
+    }
+    .position-xl-sticky{
+        position: sticky !important;
+    }
+    .position-xl-inherit{
+        position: inherit !important;
+    }
+    .position-xl-initial{
+        position: initial !important;
+    }
+    .position-xl-unset{
+        position: unset !important;
+    }
+}

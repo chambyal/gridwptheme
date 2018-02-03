@@ -1,0 +1,166 @@
+.blog-banner{
+    background-attachment: scroll;
+    background-color: $color-blue-chill;
+    background-image: url(../images/blog-banner-bg.jpg);
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .blog-banner-content{
+        min-height: 330px;
+        padding: rem(30px) rem(15px);
+        h1{
+            color: white;
+            font-size: rem(36px);
+            @include font-Montserrat-Bold;
+            line-height: rem(44px);
+        }
+        h3{
+            color: $color-medium-turquoise;
+            font-size: rem(24px);
+            @include font-Montserrat-Bold;
+            line-height: rem(30px);
+        }
+        form{
+            width: 100%;
+            @include media-breakpoint-up(lg){
+                width: 830px;
+            }
+            div{
+                width: 100%;
+                .form-control{
+                    background-color: $color-whitesmoke;
+                    border: 2px solid $color-blue-stone;
+                    border-radius: rem(8px);
+                    color: $color-charcoal;
+                    font-size: rem(18px);
+                    @include font-Roboto-Light;
+                    height: rem(60px);
+                    padding-left: rem(30px);
+                    padding-right: rem(30px);
+                    &::-webkit-input-placeholder{
+                        color: $color-silver;
+                    }
+                    &::-moz-placeholder{
+                        color: $color-silver;
+                    }
+                    &:-ms-input-placeholder{
+                        color: $color-silver;
+                    }
+                    &:-moz-placeholder{
+                        color: $color-silver;
+                    }
+                }
+            }
+            button{
+                background-color: transparent;
+                border: rem(2px) solid white;
+                border-radius: rem(8px);
+                color: white;
+                cursor: pointer;
+                font-size: rem(18px);
+                @include font-Roboto-Bold;
+                height: rem(60px);
+                max-width: 260px;
+                min-width: 260px;
+                @include transition-background-color;
+                width: 260px;
+                &:hover,
+                &:focus{
+                    background-color: white;
+                    color: $color-blue-chill;
+                }
+            }
+        }
+    }
+}
+.home-category-menu{
+    background-color: white;
+    .container{
+        @include media-breakpoint-down(sm){
+            max-width: 100%;
+            width: 100%;
+        }
+    }
+    .home-category-menu-item{
+        background-color: transparent;
+        border: none;
+        border-radius: 0;
+        color: $color-mamba;
+        font-size: rem(24px);
+        @include font-Roboto-Condensed-Regular;
+        height: rem(60px);
+        @include transition-color;
+        margin-left: - rem(15px);
+        margin-right: - rem(15px);
+        padding-left: rem(15px);
+        padding-right: rem(15px);
+        @include media-breakpoint-up(md){
+            font-size: rem(18px);
+            margin-left: 0;
+            margin-right: 0;
+            padding: 0;
+        }
+        @include media-breakpoint-up(lg){
+            font-size: rem(24px);
+        }
+        &:not(:last-child){
+            border-bottom: 1px solid black;
+            @include media-breakpoint-up(md){
+                border-bottom: none;
+                //margin-right: rem(20px);
+            }
+            @include media-breakpoint-up(lg){
+                //margin-right: rem(30px);
+            }
+            @include media-breakpoint-up(xl){
+                //margin-right: rem(60px);
+            }
+        }
+        &:hover,
+        &:focus{
+            color: black;
+            text-decoration: none;
+        }
+        &.active{
+            color: black;
+        }
+    }
+}
+.home-blog-search{
+    background-color: #B7EEEA;
+    form{
+        position: relative;
+        .form-control{
+            background-color: #E3F5F4;
+            border: 1px solid #4FB8B4;
+            border-radius: 0;
+            color: $color-charcoal;
+            font-size: rem(16px);
+            @include font-Roboto-Condensed-Regular;
+            height: rem(45px);
+            padding-right: rem(36px);
+            width: rem(260px);
+        }
+        button{
+            background-color: transparent;
+            border: none;
+            border-radius: 0;
+            color: #40BCB3;
+            font-size: rem(25px);
+            height: 100%;
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: rem(36px);
+        }
+    }
+}
+.home-blog-post-wrapper{
+    background-color: $color-whisper;
+    h2{
+        color: black;
+        font-size: rem(24px);
+        @include font-Montserrat-Light;
+        line-height: rem(30px);
+    }
+}

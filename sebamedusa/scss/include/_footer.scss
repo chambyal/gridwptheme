@@ -1,0 +1,19 @@
+footer{
+    background-color: $color-matterhorn;
+    .footer-social-link-group{
+        height: rem(155px);
+        .footer-social-link-item{
+            color: $color-nobel;
+            font-size: rem(30px);
+            @include transition-color;
+            &:not(:last-child){
+                margin-right: rem(40px);
+            }
+            &:hover,
+            &:focus{
+                color: $color-medium-turquoise;
+                text-decoration: none;
+            }
+        }
+    }
+}
